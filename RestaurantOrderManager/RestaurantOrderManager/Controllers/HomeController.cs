@@ -20,5 +20,15 @@ namespace RestaurantOrderManager.Controllers
         {
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
         }
+        
+        public ActionResult OrderDetail()
+        {
+            var chosenOrder = new Order(){orderId = 3, orderName = "Long", status = "DONE"};
+            
+            Console.WriteLine(chosenOrder.orderName);
+            Console.WriteLine(chosenOrder.status);
+            Console.WriteLine(chosenOrder.orderId);
+            return View(chosenOrder);
+        }
     }
 }
