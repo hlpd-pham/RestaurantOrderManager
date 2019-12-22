@@ -354,6 +354,8 @@ MigrationBackup/
 
 #rider idea xml files
 *\.idea*
+RestaurantOrderManager/.idea/.idea.RestaurantOrderManager/.idea/contentModel.xml
+
 
 
 
