@@ -14,19 +14,26 @@ namespace RestaurantOrderManager.Controllers
         {
             return View();
         }
-
-<<<<<<< HEAD
-=======
+        
         public IActionResult Ticket()
         {
             return View();
         }
         
->>>>>>> ticket-list
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
+        }
+        
+        public ActionResult OrderDetail()
+        {
+            var chosenOrder = new Order(){orderId = 3, orderName = "Long", status = "DONE"};
+            
+            Console.WriteLine(chosenOrder.orderName);
+            Console.WriteLine(chosenOrder.status);
+            Console.WriteLine(chosenOrder.orderId);
+            return View(chosenOrder);
         }
     }
 }
