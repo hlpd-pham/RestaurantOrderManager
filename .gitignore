@@ -353,7 +353,7 @@ MigrationBackup/
 .ionide/
 
 #rider idea xml files
-*RestaurantOrderManager/.idea*
+*\.idea*
 
 
 
