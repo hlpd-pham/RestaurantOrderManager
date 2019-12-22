@@ -352,6 +352,7 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+<<<<<<< HEAD
 #rider idea xml files
 *\.idea*
 RestaurantOrderManager/.idea/.idea.RestaurantOrderManager/.idea/contentModel.xml
@@ -359,3 +360,5 @@ RestaurantOrderManager/.idea/.idea.RestaurantOrderManager/.idea/contentModel.xml
 
 
 
+=======
+>>>>>>> be3318721fa210f4e247c0d021fe07bea863afcc
