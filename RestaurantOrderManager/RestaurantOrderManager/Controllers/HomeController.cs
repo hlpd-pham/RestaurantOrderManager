@@ -15,6 +15,14 @@ namespace RestaurantOrderManager.Controllers
             return View();
         }
 
+<<<<<<< HEAD
+=======
+        public IActionResult Ticket()
+        {
+            return View();
+        }
+        
+>>>>>>> ticket-list
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
