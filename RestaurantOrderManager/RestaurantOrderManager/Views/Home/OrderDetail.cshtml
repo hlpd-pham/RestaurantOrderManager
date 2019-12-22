@@ -1,0 +1,23 @@
+@model Order
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Order Detail</title>
+</head>
+<body>
+<div>
+    <h1>This is Order Detail View</h1>
+    <h2>@Model.orderId</h2>
+    <h2>@Model.orderName</h2>
+    <h2>@Model.status</h2>
+
+</div>
+</body>
+</html>
